@@ -14,6 +14,7 @@ function IncrementDecrement(state=initialState,action)
     {
         return +action.val;
     }
+
     return state
 }
 export default IncrementDecrement;

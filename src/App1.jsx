@@ -1,5 +1,4 @@
 import { useState } from 'react'
-// or less ideally
 import { Button } from 'react-bootstrap';
 import { useSelector,useDispatch } from 'react-redux'
 function App1(props) {
