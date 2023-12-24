@@ -1,4 +1,4 @@
-const initialState=20;
+const initialState=22;
 
 function IncrementDecrement(state=initialState,action)
 {
