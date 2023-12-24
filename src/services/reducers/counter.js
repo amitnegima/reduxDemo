@@ -10,6 +10,10 @@ function IncrementDecrement(state=initialState,action)
     {
         return state-1;
     }
+    else if(action.type=="CHANGE" )
+    {
+        return +action.val;
+    }
     return state
 }
 export default IncrementDecrement;
